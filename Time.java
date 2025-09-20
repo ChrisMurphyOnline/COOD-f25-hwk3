@@ -31,25 +31,8 @@ public class Time {
                 if (hours == 1) {
                     return "1 hour and " + mins + " minutes";
                 } else return hours + " hours and " + mins + " minutes";
-
             }
         }
-        /*
-        Alternatively, you could have a nine-line if-else statement that may be easier to understand
-        hours == 0 && mins == 0
-        hours == 0 && mins == 1
-        hours == 0 && mins > 1
-        hours == 1 && mins == 0
-        hours == 1 && mins == 1
-        hours == 1 && mins > 1
-        hours > 1 && mins == 0
-        hours > 1 && mins == 1
-        hours > 1 && mins > 1
-         */
-    }
-
-    public static void main(String[] args) {
-        System.out.println(convert(10));
     }
 }
 
